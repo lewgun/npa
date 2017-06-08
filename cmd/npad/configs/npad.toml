@@ -1,0 +1,23 @@
+[core.run]
+mode = "debug"
+
+#only for daemon
+asDaemon = false
+pidFile = ""
+
+
+#mertic
+[core.metric]
+cpu=""
+memory=""
+http=false
+
+#logger
+[core.log]
+level= "info"
+path= "./log"
+format = "text"   # "text" OR "json"
+
+
+
+
